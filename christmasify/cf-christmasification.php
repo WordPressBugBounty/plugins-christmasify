@@ -16,7 +16,7 @@
  * Plugin Name:       Christmasify! By Cyber Fox
  * Plugin URI:        https://cyberfoxdigital.co.uk
  * Description:       This plugin gives your website the Christmas feels!
- * Version:           1.5.6
+ * Version:           1.5.7
  * Author:            Cyber Fox
  * Author URI:        https://cyberfoxdigital.co.uk
  * License:           GPL-2.0+

@@ -126,11 +126,11 @@
 </tr>
 <tr>
 <th scope="row"><?php echo esc_html_e('Deactivation Date', 'christmasify'); ?></th>
-<td> <fieldset><legend class="screen-reader-text"><span><?php echo esc_html_e('Deactivate after this date', 'christmasify'); ?></span></legend><label for="date_to">
+<td> 
+  <fieldset><legend class="screen-reader-text"><span><?php echo esc_html_e('Deactivate after this date', 'christmasify'); ?></span></legend><label for="date_to">
 <input name="date_to" type="date" min="<?php echo date('Y-m-d'); ?>" id="date_to" value="<?php echo sanitize_text_field( get_option('cf_christmasify_date_to' , date('Y-m-d')) ); ?>"></label>
-</fieldset></td>
+</fieldset><?php if ( get_option('cf_christmasify_date_to' , false) && strtotime(get_option('cf_christmasify_date_to' , date('Y-m-d'))) < time()) : ?><p class="description"><strong style="color: #d00;"><?php echo esc_html_e('Warning: This date is in the past!', 'christmasify'); ?></strong></p><?php endif; ?></td>
 </tr>
-
 <tr>
 <th scope="row"></th>
 <td>

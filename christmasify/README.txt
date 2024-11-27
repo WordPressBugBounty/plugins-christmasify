@@ -3,7 +3,7 @@ Contributors: cyberfoxdigital
 Donate link: https://www.buymeacoffee.com/CyberFox
 Tags: christmas, christmasify, christmasification, festive, snow, santa, music, christmas font, cyber fox, cyberfoxdigital
 Requires at least: 4.3
-Tested up to: 6.4.1
+Tested up to: 6.7.1
 Stable tag: 5.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -45,6 +45,8 @@ Credits
 We will fill this out when we have some :D
 
 == Changelog ==
+= 1.5.7 =
+Added warning for when deactivation date is in the past
 = 1.5.6 =
 Security fixes, thanks to vgo0 and Wordfence
 = 1.5.5 =
